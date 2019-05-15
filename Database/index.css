@@ -1,0 +1,265 @@
+
+.camera
+{
+	position:relative;
+}
+
+.grille
+{
+	position:relative;
+	background-image: url(../filtres/grillage-camagram.png);
+	width: 100px;
+	height:100px;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-size:100px 100px;
+	padding-<left|right>: <10>px;
+}
+
+.crash
+{
+	order: 2;
+	position:relative;
+	transition: 1s ease;
+	background-image: url(../filtres/crash-camagram.png);
+	width: 100px;
+	height:100px;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-size:100px 100px;
+	padding-<left|right>: <10>px;
+}
+.chou
+{
+	order: 3;
+	position:relative;
+	transition: 1s ease;
+	background-image: url(../filtres/cauliflower-camagram.png);
+	width: 100px;
+	height:100px;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-size:100px 100px;
+	padding-<left|right>: <10>px;
+}
+
+
+
+
+.miniature
+{
+	position:relative;
+	width: 200px;
+	height:200px;
+	background-size:100px 100px;
+}
+
+.suppr
+{
+	position:relative;
+	background-image: url(../filtres/trash-symbol.jpg);
+	background-size:35px 35px;
+	background-repeat: no-repeat;
+	background-position: auto;
+	width: 35px;
+	height:35px;
+}
+
+.miniature_suppr
+{
+	position:relative;
+	display: flex;
+	flex-direction: raw;
+	align-items: center;
+	align-content: space-between;
+}
+
+.page_container
+{
+	background-color:lavender;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	font-size:2vh;
+}
+
+.header_container
+{
+	background-color:thistle;
+	display: flex;
+	flex-direction: raw;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+.upload_container
+{
+	display: flex;
+	flex-direction: raw;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+.center_container
+{
+	width: 100%;
+	background-color:peachpuff;
+	display: flex;
+	flex-direction: raw;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.filter_container
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.miniature_container
+{
+	display: flex;
+	flex-direction: raw;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.footer_container
+{
+	display: flex;
+	flex-direction: raw;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+.deconnexion
+{
+	position:relative;
+	width: 25px;
+	height:25px;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-size:25px 25px;
+	padding-<left|right>: <10>px;
+}
+
+.login
+{
+	position:relative;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-color: #ffcce0;
+	border: solid 3px;
+	border-color:mediumorchid;
+	letter-spacing:1px;
+	font-size:150%;
+}
+
+.like
+{
+	position:relative;
+	background-repeat: no-repeat;
+	background-position: auto;
+	background-color: #ffcce0;
+	border: solid 3px;
+	border-color:mediumorchid;
+	letter-spacing:1px;
+	font-size:75%;
+}
+
+.button
+{
+	background-color: purple;
+	border: solid 1px;
+	color: white;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+}
+
+.like_comment
+{
+	width: 100%;
+	display: flex;
+	flex-direction: raw;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.galery_pic
+{
+	background-color: transparent;
+	border: dashed 5px #ffcce0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	font-size:2vh;
+}
+
+.previous_next
+{
+	width: 100%;
+	display: flex;
+	flex-direction: raw;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.prev
+{
+	background-color: rosybrown;
+	border: solid 1px;
+	color: white;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+}
+
+.nb_page
+{
+	background-color: #ffcce0;
+	border: solid 4px #ffcce0;
+}
+
+.comment
+{
+	width: 50%;
+	background-color:peachpuff;
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	align-items: right;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.log_comment
+{
+	font-style:italic;
+	display: flex;
+	justify-content: right;
+	padding: 12px 20px;
+}
